@@ -6,31 +6,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vlado Miličić</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
 </head>
 
-<body class="text-center bg-gray-200">
-    <div class="rounded-xl text-center bg-white w-8/12 mx-auto mt-10 p-5">
-        <img src="img/profilna.jpg" class="shadow-xl rounded-full border-4 border-gray w-3/12 mx-auto">
-        <h1 class="text-3xl my-5 font-semibold">Vlado Miličić</h1>
-        <div class="p-5 my-5">
-            <a href="https://www.link-group.eu/certificate/"
-                class="font-bold p-5 hover:bg-black hover:text-white transition delay-150 duration-300 ease-in-out cursor-pointer">Certified
-                Python developer</a>
-            <br>
-            <p class="mt-5">(Certificate number: 027232)</p>
-        </div>
-        <a class="font-bold p-5 hover:bg-black transition delay-150 duration-300 ease-in-out hover:text-white cursor-pointer"
-            href="https://github.com/VladoMilicic">Github</a>
-        <a class="font-bold p-5 hover:bg-black transition delay-150 duration-300 ease-in-out hover:text-green-700 cursor-pointer"
-            href="https://www.linkedin.com/in/vlado-mili%C4%8Di%C4%87-aa07b2106/">LinkedIn</a>
-        <a class="font-bold p-5 mt-3 my-3 hover:bg-black hover:text-blue-500 transition delay-150 duration-300 ease-in-out cursor-pointer"
-            href="https://facebook.com/vlado.milicic">Facebook</a>
-        <a class="font-bold p-5 hover:bg-black transition delay-150 duration-300 ease-in-out hover:text-yellow-700 cursor-pointer"
-            href="https://www.instagram.com/vlado.milicic/">Instagram</a>
-    </div>
-</body>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="left-header-section">
+                <h2 class="name">Vlado Miličić</h2>
+                <span class="logo"><i class="fa-brands fa-python fa-xs" style="color: #0A8531;">
+                        developer</i></span>
+            </div>
+            <div class="center-header-section">
 
+                <div class="dropdown">
+                    <button class="dropbtn">Downloads</button>
+                    <div class="dropdown-content">
+                        <a href="https://1drv.ms/b/s!AhIxt2RrRfYchIkOPXSrtctr-4WCsw?e=N67iWX"><i
+                                class="fa-solid fa-download"></i> CV</a>
+                        <a href="#"><i class="fa-solid fa-download"></i> Motivational
+                            letter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-header-section">
+                <a href="https://github.com/VladoMilicic"><i class="fa-brands fa-github fa-lg" style="color:#0A8531;
+                        "></i></a>
+                <a href=" https://www.linkedin.com/in/vlado-mili%C4%8Di%C4%87-aa07b2106/"><i
+                        class="fa-brands fa-linkedin fa-lg fa-spin-hover" style="color:#0A8531"></i></a>
+                <a href="https://facebook.com/vlado.milicic"><i class="fa-brands fa-facebook fa-lg"
+                        style="color:#0A8531;"></i></a>
+                <a href="mailto:vlado_milicic@hotmail.com"><i class="far fa-envelope fa-lg"
+                        style="color:#0A8531;"></i></a>
+                <a href="https://www.instagram.com/vlado.milicic/" class="instagram-icon"><i
+                        class="fa-brands fa-instagram fa-lg" style="color:#0A8531;
+                        "></i></a>
+            </div>
+        </div>
+        <div class="body">
+            <div class="center" id="center">
+                <div class="left-body-section">
+                    <div class="profile-picture">
+                        <img src="img/profilna.jpg" onmouseover="scrollToCenter()" alt="profile-picture" />
+                    </div>
+                </div>
+                <div class="center-body-section">
+                    <div class="about-me">
+                        <h2>Hello, I am Vlado Miličić</h2>
+                        <h3>Certified Python developer based in Eastern Sarajevo,<br> Bosnia and Herzegovina</h3>
+                        <a class="certificate-link"
+                            href="https://www.link-group.eu/certificate/"><button>CERTIFICATE</button></a>
+                        <p class="certificate-number">Certificate &numero;: <i class="fas fa-copy fa-xs"
+                                id="certificate-number"> 027232</i>
+                        </p>
+                    </div>
+                    <!--
+                <div class="education" id="education">
+                    <h2>Certified Python developer</h2>
+                    <h3>ITAcademy Sarajevo</h3>
+                    <h3>2020. - 2021.</h3>
+                </div>
+                <div class="tools-i-use">
+                    <p>Python</p>
+                    <p>Django framework</p>
+                    <p>JavaScript</p>
+                    <p>Html</p>
+                    <p>Css</p>
+                    <p>Bootstrap</p>
+                </div>
+                <div class="working-experience">
+                    <p>Blood transfusion institute Sarajevo</p><br>
+                    <p>May 2014. - present</p>
+                </div>
+                <div class="my-projects">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <script>
+            function scrollToCenter() {
+                const element = document.getElementById("center");
+                element.scrollIntoView({ behavior: 'smooth' });
+            };
+
+        </script>
+    </footer>
+</body>
 
 </html>
