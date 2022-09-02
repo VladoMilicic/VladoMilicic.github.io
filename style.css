@@ -284,7 +284,7 @@ i:before {
     .right-header-section {
         display: flex;
         flex-direction: row;
-        right: 60px;
+        right: 63px;
         top: 70px;
         position: fixed;
     }
