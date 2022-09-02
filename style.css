@@ -223,3 +223,135 @@ i:before {
 }
 
 /* end of body css*/
+
+@media screen and (max-width: 426px) {
+    .container {
+        width: fit-content;
+    }
+
+    .header {
+        padding: 10px;
+        position: relative;
+        width: 100vw;
+    }
+
+    .profile-picture {
+        padding: 60px 20px 10px 20px;
+    }
+
+    .center {
+        height: fit-content;
+    }
+
+    .center-header-section {
+        padding: 2px 5px;
+        flex-direction: row;
+    }
+
+    .body {
+        height: fit-content;
+    }
+
+    .right-header-section {
+        display: flex;
+        flex-direction: row;
+        right: 90px;
+        top: 70px;
+        position: fixed;
+    }
+
+    .about-me h3 {
+        padding-bottom: 30px;
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .container {
+        width: fit-content;
+    }
+
+    .header {
+        padding: 10px;
+        position: relative;
+    }
+
+    .profile-picture {
+        padding: 60px 20px 10px 20px;
+    }
+
+    .center {
+        height: fit-content;
+    }
+
+    .center-header-section {
+        padding: 2px 5px;
+        flex-direction: row;
+    }
+
+    .right-header-section {
+        display: flex;
+        flex-direction: row;
+        right: 40px;
+        top: 70px;
+        position: fixed;
+    }
+
+    .about-me h3 {
+        padding-bottom: 30px;
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .body {
+        height: fit-content;
+    }
+
+    .container {
+        height: 100vh;
+    }
+
+    .header {
+        padding: 10px;
+        position: relative;
+    }
+
+    .profile-picture {
+        padding: 40px 70px 10px 70px;
+    }
+
+    .center {
+        height: fit-content;
+    }
+
+    .center-header-section {
+        padding: 2px 5px;
+        flex-direction: row;
+    }
+
+    .right-header-section {
+        display: flex;
+        flex-direction: row;
+        right: 40px;
+        top: 70px;
+        position: fixed;
+    }
+
+    .about-me h3 {
+        padding-bottom: 30px;
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
