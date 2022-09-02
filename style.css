@@ -269,7 +269,7 @@ i:before {
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 392px) {
     .container {
         width: fit-content;
     }
@@ -300,7 +300,7 @@ i:before {
     .right-header-section {
         display: flex;
         flex-direction: row;
-        right: 80px;
+        right: 75px;
         top: 70px;
         position: fixed;
     }
