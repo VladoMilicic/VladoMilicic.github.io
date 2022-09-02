@@ -296,7 +296,7 @@ i:before {
     .right-header-section {
         display: flex;
         flex-direction: row;
-        right: 40px;
+        right: 60px;
         top: 70px;
         position: fixed;
     }
@@ -323,7 +323,7 @@ i:before {
     .header {
         padding: 10px;
         position: relative;
-        width: 100vw;
+        width: auto;
     }
 
     .profile-picture {
