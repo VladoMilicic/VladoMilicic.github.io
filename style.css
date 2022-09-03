@@ -290,6 +290,16 @@ i:before {
     }
 }
 
+@media screen and (max-width:360px) {
+    .right-header-section {
+        display: flex;
+        flex-direction: row;
+        right: 60px;
+        top: 70px;
+        position: fixed;
+    }
+}
+
 @media screen and (max-width:320px) {
     .right-header-section {
         display: flex;
